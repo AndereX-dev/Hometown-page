@@ -1,0 +1,84 @@
+#hero {
+    background-image: url("Images/Bergenbrygge.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title {
+    background: darkblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+}
+.title2 {
+    text-align: center;
+}
+.underline {
+    border-bottom: 2px solid white;
+}
+#message {
+    background: #457B9D;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    background: linear-gradient(lightblue, blue);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.activities {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.byen {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+.fløyen {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+.parken {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+img {
+    width: 150px;
+}
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+}
+#byvandring-img {
+    border-radius: 50%;
+    border: 4px solid aquamarine;
+}
+.byen {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+#fløybanen-img {
+    border-radius: 50%;
+    border: 4px solid aquamarine;
+}
+#byparken-img {
+    border-radius: 50%;
+    border: 4px solid aquamarine;
+}
